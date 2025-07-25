@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: emanuelbrodrigues/emanuelbrodrigues-orqcontainer-guessgame-frontend:2
+          image: ealen/echo-server
           ports:
             - containerPort: 80
           env:
