@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: emanuelbrodrigues/emanuelbrodrigues-orqcontainer-guessgame-frontend:1
+          image: emanuelbrodrigues/emanuelbrodrigues-orqcontainer-guessgame-frontend:2
           ports:
             - containerPort: 80
           env:
@@ -31,4 +31,4 @@ spec:
   ports:
     - port: 80
       targetPort: 80
-  type: ClusterIP
+  type: LoadBalancer
